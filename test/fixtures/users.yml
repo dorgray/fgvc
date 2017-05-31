@@ -1,1 +1,4 @@
-#empty
+  kanie:
+  name: Kanie Seiya
+  email: kanie@amaburi.com
+  password_digest: <%= User.digest('password') %>
